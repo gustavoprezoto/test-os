@@ -115,4 +115,5 @@ def mainApp():
     writelogs() #funçao para escrever os arquivos transferidos em Ilist e Llist
 
 
-mainApp()
+if "__name__" == "__main__":
+    mainApp()
